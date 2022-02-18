@@ -10,34 +10,34 @@
     <link rel="shortcut icon" href="{{ asset('frontend/assets/images/logo/favourite_icon_1.png') }}') }}">
 
     <!-- fraimwork - css include -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/bootstrap.min.css') }}">
 
     <!-- icon font - css include -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/fontawesome.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/stroke-gap-icons.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/icofont.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/fontawesome.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/stroke-gap-icons.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/icofont.css') }}">
 
     <!-- animation - css include -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/animate.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/animate.css') }}">
 
     <!-- carousel - css include -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/slick.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/slick-theme.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/slick.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/slick-theme.css') }}">
 
     <!-- popup - css include -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/magnific-popup.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/magnific-popup.css') }}">
 
     <!-- jquery-ui - css include -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/jquery-ui.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/jquery-ui.css') }}">
 
     <!-- select option - css include -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/nice-select.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/nice-select.css') }}">
 
     <!-- woocommercen - css include -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/woocommerce.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/woocommerce.css') }}">
 
     <!-- custom - css include -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend//css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/css/style.css') }}">
 </head>
 
 <body>
@@ -69,7 +69,7 @@
                                 <li>
                                     <div class="select_option">
                                         <div class="flug_wrap">
-                                            <img src="{{ asset('frontend//images/flug/flug_uk.png') }}"
+                                            <img src="{{ asset('frontend/assets/images/flug/flug_uk.png') }}"
                                                 alt="image_not_found">
                                         </div>
                                         <select>
@@ -97,7 +97,7 @@
                         <div class="col col-lg-3 col-md-3 col-sm-12">
                             <div class="brand_logo">
                                 <a class="brand_link" href="index.html">
-                                    <img src="{{ asset('frontend//images/logo/logo_1x.png') }}"
+                                    <img src="{{ asset('frontend/assets/images/logo/logo_1x.png') }}"
                                         srcset="assets/images/logo/logo_2x.png')}} 2x" alt>
                                 </a>
                             </div>
@@ -262,7 +262,8 @@
                     <ul class="cart_items_list ul_li_block mb_30 clearfix">
                         <li>
                             <div class="item_image">
-                                <img src="{{ asset('frontend//images/cart/cart_img_1.jpg') }}" alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/cart/cart_img_1.jpg') }})}}"
+                                    alt="image_not_found">
                             </div>
                             <div class="item_content">
                                 <h4 class="item_title">Yellow Blouse</h4>
@@ -272,7 +273,8 @@
                         </li>
                         <li>
                             <div class="item_image">
-                                <img src="{{ asset('frontend//images/cart/cart_img_2.jpg') }}" alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/cart/cart_img_2.jpg') }})}}"
+                                    alt="image_not_found">
                             </div>
                             <div class="item_content">
                                 <h4 class="item_title">Yellow Blouse</h4>
@@ -282,7 +284,8 @@
                         </li>
                         <li>
                             <div class="item_image">
-                                <img src="{{ asset('frontend//images/cart/cart_img_3.jpg') }}" alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/cart/cart_img_3.jpg') }})}}"
+                                    alt="image_not_found">
                             </div>
                             <div class="item_content">
                                 <h4 class="item_title">Yellow Blouse</h4>
@@ -340,7 +343,7 @@
                                     <div class="row">
                                         <div class="col col-lg-6">
                                             <div class="product_details_image p-0">
-                                                <img src="{{ asset('frontend//images/shop/product_img_12.png') }}"
+                                                <img src="{{ asset('frontend/assets/images/shop/product_img_12.png') }}"
                                                     alt>
                                             </div>
                                         </div>
@@ -476,7 +479,7 @@
                         <div class="col-lg-9 offset-lg-3">
                             <div class="main_slider" data-slick='{"arrows": false}'>
                                 <div class="slider_item set-bg-image"
-                                    data-background="assets/images/slider/slide-2.jpg')}}">
+                                    data-background="{{ asset('frontend/assets/images/slider/slide-2.jpg') }}">
                                     <div class="slider_content">
                                         <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Clothing
                                         </h3>
@@ -493,7 +496,7 @@
                                     </div>
                                 </div>
                                 <div class="slider_item set-bg-image"
-                                    data-background="assets/images/slider/slide-3.jpg')}}">
+                                    data-background="{{ asset('frontend/assets/images/slider/slide-3.jpg') }}">
                                     <div class="slider_content">
                                         <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Clothing
                                         </h3>
@@ -510,7 +513,7 @@
                                     </div>
                                 </div>
                                 <div class="slider_item set-bg-image"
-                                    data-background="assets/images/slider/slide-1.jpg')}}">
+                                    data-background="{{ asset('frontend/assets/images/slider/slide-1.jpg') }}">
                                     <div class="slider_content">
                                         <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">Clothing
                                         </h3>
@@ -614,7 +617,8 @@
                                 <div class="product-area clearfix">
                                     <div class="grid">
                                         <div class="product-pic">
-                                            <img src="{{ asset('frontend//images/shop/product_img_12.png') }}" alt>
+                                            <img src="{{ asset('frontend/assets/images/shop/product_img_12.png') }}"
+                                                alt>
                                             <div class="actions">
                                                 <ul>
                                                     <li>
@@ -686,7 +690,8 @@
                                     </div>
                                     <div class="grid">
                                         <div class="product-pic">
-                                            <img src="{{ asset('frontend//images/shop/product-img-21.png') }}" alt>
+                                            <img src="{{ asset('frontend/assets/images/shop/product-img-21.png') }}"
+                                                alt>
                                             <span class="theme-badge">Sale</span>
                                             <div class="actions">
                                                 <ul>
@@ -760,7 +765,8 @@
                                     </div>
                                     <div class="grid">
                                         <div class="product-pic">
-                                            <img src="{{ asset('frontend//images/shop/product-img-22.png') }}" alt>
+                                            <img src="{{ asset('frontend/assets/images/shop/product-img-22.png') }}"
+                                                alt>
                                             <span class="theme-badge-2">12% off</span>
                                             <div class="actions">
                                                 <ul>
@@ -841,7 +847,8 @@
                                     </div>
                                     <div class="grid">
                                         <div class="product-pic">
-                                            <img src="{{ asset('frontend//images/shop/product-img-23.png') }}" alt>
+                                            <img src="{{ asset('frontend/assets/images/shop/product-img-23.png') }}"
+                                                alt>
                                             <span class="theme-badge">Sale</span>
                                             <div class="actions">
                                                 <ul>
@@ -915,7 +922,8 @@
                                     </div>
                                     <div class="grid">
                                         <div class="product-pic">
-                                            <img src="{{ asset('frontend//images/shop/product-img-24.png') }}" alt>
+                                            <img src="{{ asset('frontend/assets/images/shop/product-img-24.png') }}"
+                                                alt>
                                             <span class="theme-badge-2">25% off</span>
                                             <div class="actions">
                                                 <ul>
@@ -996,7 +1004,8 @@
                                     </div>
                                     <div class="grid">
                                         <div class="product-pic">
-                                            <img src="{{ asset('frontend//images/shop/product-img-25.png') }}" alt>
+                                            <img src="{{ asset('frontend/assets/images/shop/product-img-25.png') }}"
+                                                alt>
                                             <div class="actions">
                                                 <ul>
                                                     <li>
@@ -1078,7 +1087,7 @@
                                         <div class="category_boxed">
                                             <a href="#!">
                                                 <span class="item_image">
-                                                    <img src="{{ asset('frontend//images/categories/category_1.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/categories/category_1.png') }}"
                                                         alt="image_not_found">
                                                 </span>
                                                 <span class="item_title">Men's Watches</span>
@@ -1090,7 +1099,7 @@
                                         <div class="category_boxed">
                                             <a href="#!">
                                                 <span class="item_image">
-                                                    <img src="{{ asset('frontend//images/categories/category_2.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/categories/category_2.png') }}"
                                                         alt="image_not_found">
                                                 </span>
                                                 <span class="item_title">iPad</span>
@@ -1102,7 +1111,7 @@
                                         <div class="category_boxed">
                                             <a href="#!">
                                                 <span class="item_image">
-                                                    <img src="{{ asset('frontend//images/categories/category_3.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/categories/category_3.png') }}"
                                                         alt="image_not_found">
                                                 </span>
                                                 <span class="item_title">iPhone</span>
@@ -1114,7 +1123,7 @@
                                         <div class="category_boxed">
                                             <a href="#!">
                                                 <span class="item_image">
-                                                    <img src="{{ asset('frontend//images/categories/category_4.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/categories/category_4.png') }}"
                                                         alt="image_not_found">
                                                 </span>
                                                 <span class="item_title">Headphone</span>
@@ -1126,7 +1135,7 @@
                                         <div class="category_boxed">
                                             <a href="#!">
                                                 <span class="item_image">
-                                                    <img src="{{ asset('frontend//images/categories/category_5.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/categories/category_5.png') }}"
                                                         alt="image_not_found">
                                                 </span>
                                                 <span class="item_title">Mac Mini</span>
@@ -1138,7 +1147,7 @@
                                         <div class="category_boxed">
                                             <a href="#!">
                                                 <span class="item_image">
-                                                    <img src="{{ asset('frontend//images/categories/category_1.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/categories/category_1.png') }}"
                                                         alt="image_not_found">
                                                 </span>
                                                 <span class="item_title">Men's Watches</span>
@@ -1150,7 +1159,7 @@
                                         <div class="category_boxed">
                                             <a href="#!">
                                                 <span class="item_image">
-                                                    <img src="{{ asset('frontend//images/categories/category_2.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/categories/category_2.png') }}"
                                                         alt="image_not_found">
                                                 </span>
                                                 <span class="item_title">CCTV Camera</span>
@@ -1162,7 +1171,7 @@
                                         <div class="category_boxed">
                                             <a href="#!">
                                                 <span class="item_image">
-                                                    <img src="{{ asset('frontend//images/categories/category_3.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/categories/category_3.png') }}"
                                                         alt="image_not_found">
                                                 </span>
                                                 <span class="item_title">CCTV Camera</span>
@@ -1194,7 +1203,7 @@
                                         <div class="slider_item">
                                             <div class="small_product_layout">
                                                 <a class="item_image" href="shop_details.html">
-                                                    <img src="{{ asset('frontend//images/latest_product/latest_product_1.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/latest_product/latest_product_1.png') }}"
                                                         alt="image_not_found">
                                                 </a>
                                                 <div class="item_content">
@@ -1221,7 +1230,7 @@
                                         <div class="slider_item">
                                             <div class="small_product_layout">
                                                 <a class="item_image" href="shop_details.html">
-                                                    <img src="{{ asset('frontend//images/latest_product/latest_product_2.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/latest_product/latest_product_2.png') }}"
                                                         alt="image_not_found">
                                                 </a>
                                                 <div class="item_content">
@@ -1248,7 +1257,7 @@
                                         <div class="slider_item">
                                             <div class="small_product_layout">
                                                 <a class="item_image" href="shop_details.html">
-                                                    <img src="{{ asset('frontend//images/latest_product/latest_product_3.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/latest_product/latest_product_3.png') }}"
                                                         alt="image_not_found">
                                                 </a>
                                                 <div class="item_content">
@@ -1275,7 +1284,7 @@
                                         <div class="slider_item">
                                             <div class="small_product_layout">
                                                 <a class="item_image" href="shop_details.html">
-                                                    <img src="{{ asset('frontend//images/latest_product/latest_product_4.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/latest_product/latest_product_4.png') }}"
                                                         alt="image_not_found">
                                                 </a>
                                                 <div class="item_content">
@@ -1302,7 +1311,7 @@
                                         <div class="slider_item">
                                             <div class="small_product_layout">
                                                 <a class="item_image" href="shop_details.html">
-                                                    <img src="{{ asset('frontend//images/latest_product/latest_product_1.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/latest_product/latest_product_1.png') }}"
                                                         alt="image_not_found">
                                                 </a>
                                                 <div class="item_content">
@@ -1329,7 +1338,7 @@
                                         <div class="slider_item">
                                             <div class="small_product_layout">
                                                 <a class="item_image" href="shop_details.html">
-                                                    <img src="{{ asset('frontend//images/latest_product/latest_product_2.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/latest_product/latest_product_2.png') }}"
                                                         alt="image_not_found">
                                                 </a>
                                                 <div class="item_content">
@@ -1356,7 +1365,7 @@
                                         <div class="slider_item">
                                             <div class="small_product_layout">
                                                 <a class="item_image" href="shop_details.html">
-                                                    <img src="{{ asset('frontend//images/latest_product/latest_product_3.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/latest_product/latest_product_3.png') }}"
                                                         alt="image_not_found">
                                                 </a>
                                                 <div class="item_content">
@@ -1383,7 +1392,7 @@
                                         <div class="slider_item">
                                             <div class="small_product_layout">
                                                 <a class="item_image" href="shop_details.html">
-                                                    <img src="{{ asset('frontend//images/latest_product/latest_product_4.png') }}"
+                                                    <img src="{{ asset('frontend/assets/images/latest_product/latest_product_4.png') }}"
                                                         alt="image_not_found">
                                                 </a>
                                                 <div class="item_content">
@@ -1410,7 +1419,7 @@
                                 </div>
                                 <div class="widget product-add">
                                     <div class="product-img">
-                                        <img src="{{ asset('frontend//images/shop/product_img_10.png') }}" alt>
+                                        <img src="{{ asset('frontend/assets/images/shop/product_img_10.png') }}" alt>
                                     </div>
                                     <div class="details">
                                         <h4>iPad pro</h4>
@@ -1448,7 +1457,7 @@
                         <div class="col col-lg-6">
                             <div class="promotion_banner">
                                 <div class="item_image">
-                                    <img src="{{ asset('frontend//images/promotion/banner_img_1.png') }}" alt>
+                                    <img src="{{ asset('frontend/assets/images/promotion/banner_img_1.png') }}" alt>
                                 </div>
                                 <div class="item_content">
                                     <h3 class="item_title">Protective sleeves <span>combo.</span></h3>
@@ -1461,7 +1470,7 @@
                         <div class="col col-lg-6">
                             <div class="promotion_banner">
                                 <div class="item_image">
-                                    <img src="{{ asset('frontend//images/promotion/banner_img_2.png') }}" alt>
+                                    <img src="{{ asset('frontend/assets/images/promotion/banner_img_2.png') }}" alt>
                                 </div>
                                 <div class="item_content">
                                     <h3 class="item_title">Nutrillet blender <span>combo.</span></h3>
@@ -1503,7 +1512,7 @@
                             <div class="new-arrivals-grids clearfix">
                                 <div class="grid">
                                     <div class="product-pic">
-                                        <img src="{{ asset('frontend//images/shop/product-img-28.png') }}" alt>
+                                        <img src="{{ asset('frontend/assets/images/shop/product-img-28.png') }}" alt>
                                         <div class="actions">
                                             <ul>
                                                 <li>
@@ -1563,7 +1572,7 @@
                                 </div>
                                 <div class="grid">
                                     <div class="product-pic">
-                                        <img src="{{ asset('frontend//images/shop/product-img-26.png') }}" alt>
+                                        <img src="{{ asset('frontend/assets/images/shop/product-img-26.png') }}" alt>
                                         <span class="theme-badge-2">20% off</span>
                                         <div class="actions">
                                             <ul>
@@ -1631,7 +1640,7 @@
                                 </div>
                                 <div class="grid">
                                     <div class="product-pic">
-                                        <img src="{{ asset('frontend//images/shop/product-img-27.png') }}" alt>
+                                        <img src="{{ asset('frontend/assets/images/shop/product-img-27.png') }}" alt>
                                         <span class="theme-badge-2">15% off</span>
                                         <div class="actions">
                                             <ul>
@@ -1699,7 +1708,7 @@
                                 </div>
                                 <div class="grid">
                                     <div class="product-pic">
-                                        <img src="{{ asset('frontend//images/shop/product_img_12.png') }}" alt>
+                                        <img src="{{ asset('frontend/assets/images/shop/product_img_12.png') }}" alt>
                                         <span class="theme-badge">Sale</span>
                                         <div class="actions">
                                             <ul>
@@ -1780,32 +1789,42 @@
                     <div class="brand_carousel">
                         <div class="slider_item">
                             <a class="product_brand_logo" href="#!">
-                                <img src="{{ asset('frontend//images/brand/brand_1.png') }}" alt="image_not_found">
-                                <img src="{{ asset('frontend//images/brand/brand_1.png') }}" alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_1.png') }}"
+                                    alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_1.png') }}"
+                                    alt="image_not_found">
                             </a>
                         </div>
                         <div class="slider_item">
                             <a class="product_brand_logo" href="#!">
-                                <img src="{{ asset('frontend//images/brand/brand_2.png') }}" alt="image_not_found">
-                                <img src="{{ asset('frontend//images/brand/brand_2.png') }}" alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_2.png') }}"
+                                    alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_2.png') }}"
+                                    alt="image_not_found">
                             </a>
                         </div>
                         <div class="slider_item">
                             <a class="product_brand_logo" href="#!">
-                                <img src="{{ asset('frontend//images/brand/brand_3.png') }}" alt="image_not_found">
-                                <img src="{{ asset('frontend//images/brand/brand_3.png') }}" alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_3.png') }}"
+                                    alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_3.png') }}"
+                                    alt="image_not_found">
                             </a>
                         </div>
                         <div class="slider_item">
                             <a class="product_brand_logo" href="#!">
-                                <img src="{{ asset('frontend//images/brand/brand_4.png') }}" alt="image_not_found">
-                                <img src="{{ asset('frontend//images/brand/brand_4.png') }}" alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_4.png') }}"
+                                    alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_4.png') }}"
+                                    alt="image_not_found">
                             </a>
                         </div>
                         <div class="slider_item">
                             <a class="product_brand_logo" href="#!">
-                                <img src="{{ asset('frontend//images/brand/brand_5.png') }}" alt="image_not_found">
-                                <img src="{{ asset('frontend//images/brand/brand_5.png') }}" alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_5.png') }}"
+                                    alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/brand/brand_5.png') }}"
+                                    alt="image_not_found">
                             </a>
                         </div>
                     </div>
@@ -1828,7 +1847,7 @@
                             <div class="slider_item col">
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_1.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_1.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -1845,7 +1864,7 @@
 
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_2.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_2.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -1864,7 +1883,7 @@
                             <div class="slider_item col">
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_3.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_3.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -1881,7 +1900,7 @@
 
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_4.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_4.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -1900,7 +1919,7 @@
                             <div class="slider_item col">
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_5.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_5.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -1917,7 +1936,7 @@
 
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_6.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_6.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -1936,7 +1955,7 @@
                             <div class="slider_item col">
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_1.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_1.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -1953,7 +1972,7 @@
 
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_2.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_2.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -1972,7 +1991,7 @@
                             <div class="slider_item col">
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_3.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_3.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -1989,7 +2008,7 @@
 
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_4.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_4.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -2008,7 +2027,7 @@
                             <div class="slider_item col">
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_5.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_5.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -2025,7 +2044,7 @@
 
                                 <div class="viewed_product_item">
                                     <div class="item_image">
-                                        <img src="{{ asset('frontend//images/viewed_products/viewed_product_img_6.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/viewed_products/viewed_product_img_6.png') }}"
                                             alt="image_not_found">
                                     </div>
                                     <div class="item_content">
@@ -2090,7 +2109,7 @@
                             <div class="footer_widget footer_about">
                                 <div class="brand_logo">
                                     <a class="brand_link" href="index.html">
-                                        <img src="{{ asset('frontend//images/logo/logo_1x.png') }}"
+                                        <img src="{{ asset('frontend/assets/images/logo/logo_1x.png') }}"
                                             srcset="assets/images/logo/logo_2x.png')}} 2x" alt="logo_not_found">
                                     </a>
                                 </div>
@@ -2152,9 +2171,9 @@
                                     </div>
                                 </div>
                                 <ul class="store_btns_group ul_li">
-                                    <li><a href="#!"><img src="{{ asset('frontend//images/app_store.png') }}"
+                                    <li><a href="#!"><img src="{{ asset('frontend/assets/images/app_store.png') }}"
                                                 alt="app_store"></a></li>
-                                    <li><a href="#!"><img src="{{ asset('frontend//images/play_store.png') }}"
+                                    <li><a href="#!"><img src="{{ asset('frontend/assets/images/play_store.png') }}"
                                                 alt="play_store"></a></li>
                                 </ul>
                             </div>
@@ -2175,7 +2194,8 @@
                         <div class="col col-md-6">
                             <div class="payment_method">
                                 <h4>Payment:</h4>
-                                <img src="{{ asset('frontend//images/payments_icon.png') }}" alt="image_not_found">
+                                <img src="{{ asset('frontend/assets/images/payments_icon.png') }}"
+                                    alt="image_not_found">
                             </div>
                         </div>
                     </div>
